@@ -3,7 +3,7 @@
     <h1 class="heading">
       <span>{{ event.name }}</span>
     </h1>
-    <p class="highlight">Description : </p>
+    <p class="highlight">Description :</p>
     <p>{{ event.overview }}</p>
 
     <!-- ---------speaker card --------- -->
@@ -20,7 +20,7 @@
             class="card-img-top"
             :alt="imageAlt"
           />
-          <div class="card-body w-100  d-flex flex-column align-items-center">
+          <div class="card-body w-100 d-flex flex-column align-items-center">
             <h5 class="card-title w-100">{{ speaker.title }}</h5>
             <p class="card-text">
               <a
@@ -37,7 +37,7 @@
     <!-- ---------speaker card --------- -->
     <p class="highlight">About Postman :</p>
     <p>{{ event.about }}</p>
-    
+
     <p><span>Platform : </span> <a :href="event.link">www.postman.com</a></p>
     <div id="main-announce" class="w-100">
       <a
@@ -77,11 +77,11 @@
   color: #fff;
   font-size: 1.5em;
 }
-.rule p a{
+.rule p a {
   color: #fff;
   text-decoration: none;
 }
-.rule p a:hover{
+.rule p a:hover {
   text-decoration: underline;
   color: var(--theme1);
 }
@@ -112,9 +112,9 @@ p span {
   text-decoration: none;
 }
 
-.card{
-  background-color: rgb(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.7);
+.card {
+  background-color: rgb(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(25px);
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.3);
 }
@@ -139,8 +139,9 @@ export default {
             github: "alwenpy",
           },
         ],
-        about: "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
-        link: "https://www.postman.com/"
+        about:
+          "Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.",
+        link: "https://www.postman.com/",
       },
     };
   },

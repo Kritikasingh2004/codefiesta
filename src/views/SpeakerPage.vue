@@ -141,38 +141,38 @@ export default {
       events: [
         {
           id: 1,
-          title: "Design Masters",
-          description:
-            "This is a seminar on UI (User-Interface)/ UX (User-Experience) development which aims at teaching how to create visually appealing and user-friendly digital interfaces for websites, apps, etc. The speakers will delve into the latest trends, best practices and practical techniques to help one elevate their designing skills.",
-          speaker: "TBD",
-          image: require("../assets/images/events/speaker.svg"),
-          to: "/designmasters",
-        },
-        {
-          id: 2,
-          title: "Cutting-Edge",
-          description:
-            "This is a seminar on video editing which aims at enhancing the students' editing prowess. The speakers will help discover the right tools, techniques and creative approaches to craft compelling visual narratives and tell captivating stories through the magic of editing.",
-          image: require("../assets/images/events/speaker.svg"),
-          to: "/video",
-        },
-        {
-          id: 3,
-          title: "Guardians of the Digital Realm",
-          description:
-            "This is a seminar on cyber security aiming at teaching the crucial strategies to protect data from cyber threats, hackers and vulnerabilities. The speakers will explain various encryption techniques, providing the students with practical insights and hands-on knowledge to fortify digital defenses",
-          speaker: "TBD",
-          image: require("../assets/images/events/speaker.svg"),
-          to: "/cyberseminar",
-        },
-        {
-          id: 4,
           title: "All About API",
           description:
             "A comprehensive seminar on API basics and Postman tailored to equip participants with a solid understanding of API basics, including request-response mechanisms, methods, and their applications. Dive deep into practical sessions where you'll set up a project on Replit, design APIs employing every key method (GET, POST, PUT, DELETE), and master testing them using Postman.",
           speaker: "Arvind Srivastava and Siddhartha Mishra",
           image: require("../assets/images/speakers/postman.png"),
           to: "/postman",
+        },
+        {
+          id: 2,
+          title: "Design Masters",
+          description:
+            "This is a seminar on UI (User-Interface)/ UX (User-Experience) development which aims at teaching how to create visually appealing and user-friendly digital interfaces for websites, apps, etc. The speakers will delve into the latest trends, best practices and practical techniques to help one elevate their designing skills.",
+          speaker: "TBD",
+          image: require("../assets/images/events/speaker.svg"),
+          to: "/tbd",
+        },
+        {
+          id: 3,
+          title: "Cutting-Edge",
+          description:
+            "This is a seminar on video editing which aims at enhancing the students' editing prowess. The speakers will help discover the right tools, techniques and creative approaches to craft compelling visual narratives and tell captivating stories through the magic of editing.",
+          image: require("../assets/images/events/speaker.svg"),
+          to: "/tbd",
+        },
+        {
+          id: 4,
+          title: "Guardians of the Digital Realm",
+          description:
+            "This is a seminar on cyber security aiming at teaching the crucial strategies to protect data from cyber threats, hackers and vulnerabilities. The speakers will explain various encryption techniques, providing the students with practical insights and hands-on knowledge to fortify digital defenses",
+          speaker: "TBD",
+          image: require("../assets/images/events/speaker.svg"),
+          to: "/tbd",
         },
       ],
     };

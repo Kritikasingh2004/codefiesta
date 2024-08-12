@@ -9,9 +9,10 @@
             The flagship coding festival of Lucknow
           </h4>
           <h1 id="cf-head" class="text-white">Code Fiesta</h1>
-          <TimerVue event_date="2024-04-01 11:00" />
+          <TimerVue event_date="2024-12-01 11:00" />
           <div id="main-announce" class="w-100">
-            <a href="https://lu.ma/s1ah6f4l"
+            <a
+              href="https://lu.ma/s1ah6f4l"
               class="btn btn-lg mt-2 btn-outline-light rounded-0 cf-register"
               ><span class="glowing-text">REGISTER NOW</span></a
             >
@@ -23,8 +24,7 @@
 </template>
 
 <style>
-
-#root{
+#root {
   height: 85vh;
 }
 :root {
@@ -247,43 +247,39 @@
 /* --------------media-querry------------ */
 
 @media screen and (max-width: 1080px) {
-  #cf-head{
+  #cf-head {
     font-size: 15vw;
   }
-  #cf-tagline{
+  #cf-tagline {
     font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 700px) {
-  #cf-head{
+  #cf-head {
     font-size: 17vw;
   }
-  #cf-tagline{
+  #cf-tagline {
     font-size: 3vw;
   }
 }
 
 @media screen and (max-width: 465px) {
-  #cf-tagline{
+  #cf-tagline {
     font-size: 1em;
   }
 
-  #cf-head{
+  #cf-head {
     font-size: 4.6em;
     line-height: 1em;
   }
-.cf-register{
-  width: 70% !important;
+  .cf-register {
+    width: 70% !important;
+  }
+
+  #root {
+    height: 80vh;
+  }
 }
-
-#root{
-  height: 80vh;
-}
-  
-}
-
-
-
 </style>
 
 <script>

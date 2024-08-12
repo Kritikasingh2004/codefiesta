@@ -1,6 +1,8 @@
 <template>
   <div class="timeline-sec">
-    <h1 class="heading" style="padding: 2%; margin: 0;"><span>The fiesta timeline</span></h1>
+    <h1 class="heading" style="padding: 2%; margin: 0">
+      <span>The fiesta timeline</span>
+    </h1>
     <section class="timeline">
       <div class="info">
         <img width="200" height="200" src="../../public/cc-logo.svg" alt="" />
@@ -247,79 +249,64 @@ export default {
     return {
       timeLine: [
         {
-          time: "9:00 am",
+          time: "TBD",
           day: "DAY 1",
-          event: "Hello World",
+          event: "Code Mesh",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 1",
+          event: "Code Flict",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 1",
+          event: "Bug Thug",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 1",
+          event: "Meme Neeti",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 1",
+          event: "Byte Battle",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 1",
+          event: "Reverse Engineering",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "Design Masters-The Competition",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "Capture the flag",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "Design Masters Seminar",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "Cutting Edge",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "Guardians of the Digital Realm",
         },
         {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
-        },
-        {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
-        },
-        {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
-        },
-        {
-          time: "9:00 am",
-          day: "Day 1",
-          event: "Hello World",
+          time: "TBD",
+          day: "DAY 2",
+          event: "All About API",
         },
       ],
     };

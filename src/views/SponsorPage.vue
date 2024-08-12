@@ -10,23 +10,14 @@
         </div>
       </div>
     </div>
-    <div class="community">
-      <h1 class="heading">
-        <span>Previous Sponsors</span>
-      </h1>
-    </div>
-    <div class="community">
-      <h1 class="heading">
-        <span>Our Sponsors</span>
-      </h1>
-    </div>
 
-    <div class="community">
+    <div
+      class="d-flex flex-column justify-content-center align-items-center vh-100 mw-100"
+    >
       <h1 class="heading">
         <span>Instresed In Sponsoring Us?</span>
       </h1>
       <div class="spn-promo">
-
         <button class="btn btn-lg mt-2 btn-outline-light rounded-0 cf-register">
           <span class="glowing-text">SPONSOR US</span>
         </button>
@@ -106,10 +97,10 @@ export default {
   width: 80%;
 }
 
-.spn-promo{
+.spn-promo {
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 40vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;

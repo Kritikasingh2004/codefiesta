@@ -162,7 +162,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/codemesh.svg"),
-          to: "/codemesh",
+          to: "/tbd",
         },
         {
           id: 2,
@@ -173,7 +173,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/cp.svg"),
-          to: "/codeflict",
+          to: "/tbd",
         },
         {
           id: 3,
@@ -184,7 +184,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/bug.svg"),
-          to: "/bugthug",
+          to: "/tbd",
         },
         {
           id: 4,
@@ -195,7 +195,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/meme.svg"),
-          to: "/memeneeti",
+          to: "/tbd",
         },
         {
           id: 5,
@@ -206,7 +206,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/quiz.svg"),
-          to: "/bytebattle",
+          to: "/tbd",
         },
         {
           id: 6,
@@ -217,7 +217,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/reverse.svg"),
-          to: "/reverseengin",
+          to: "/tbd",
         },
         {
           id: 7,
@@ -228,7 +228,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/design.svg"),
-          to: "/designmaster",
+          to: "/tbd",
         },
         {
           id: 8,
@@ -239,7 +239,7 @@ export default {
           date: "TBD",
           time: "TBD",
           image: require("../assets/images/events/flag.svg"),
-          to: "/ctflag",
+          to: "/tbd",
         },
       ],
     };

@@ -1,42 +1,47 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomePage from '../views/HomePage.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import HomePage from "../views/HomePage.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomePage
+    path: "/",
+    name: "home",
+    component: HomePage,
   },
   {
-    path: '/sponsors',
-    name: 'sponsors',
-    component: () => import("../views/SponsorPage.vue")
+    path: "/sponsors",
+    name: "sponsors",
+    component: () => import("../views/SponsorPage.vue"),
   },
   {
-    path: '/schedule',
-    name: 'schedule',
-    component: () => import("../views/SchedulePage.vue")
+    path: "/schedule",
+    name: "schedule",
+    component: () => import("../views/SchedulePage.vue"),
   },
   {
-    path: '/speakers',
-    name: 'Speakers',
-    component: () => import("../views/SpeakerPage.vue")
+    path: "/speakers",
+    name: "Speakers",
+    component: () => import("../views/SpeakerPage.vue"),
   },
   {
-    path: '/aboutus',
-    name: 'AboutUs',
-    component: () => import("../views/AboutUs.vue")
+    path: "/aboutus",
+    name: "AboutUs",
+    component: () => import("../views/AboutUs.vue"),
   },
   {
-    path: '/postman',
-    name: 'PostmanSeminar',
-    component: () => import('../components/seminar/PostmanSeminar.vue'),
+    path: "/postman",
+    name: "PostmanSeminar",
+    component: () => import("../components/seminar/PostmanSeminar.vue"),
   },
-]
+  {
+    path: "/tbd",
+    name: "ToBeDecided",
+    component: () => import("../components/seminar/ToBeDecided.vue"),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
