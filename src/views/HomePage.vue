@@ -9,7 +9,7 @@
             The flagship coding festival of Lucknow
           </h4>
           <h1 id="cf-head" class="text-white">Code Fiesta</h1>
-          <TimerVue event_date="2024-12-01 11:00" />
+          <TimerVue event_date="2024-12-12 11:00" />
           <div id="main-announce" class="w-100">
             <a
               href="https://lu.ma/s1ah6f4l"

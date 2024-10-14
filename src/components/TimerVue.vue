@@ -60,13 +60,12 @@ export default {
 </script>
 
 <style>
-
-.cal{
+.cal {
   font-size: 2.6em;
   font-weight: 500;
 }
-.cap{
-  font-size: 0.em;
+.cap {
+  font-size: 0.9em;
   font-weight: 600;
 }
 
@@ -90,26 +89,30 @@ export default {
 
 /* --------------media-querry------------ */
 
-@media screen and (max-width:430px){
-  .cal{
+@media screen and (max-width: 430px) {
+  .cal {
     font-size: 1.7em;
   }
-  #countdown{
+  #countdown {
     width: fit-content;
   }
-  .cap{font-size: 0.85em;}
+  .cap {
+    font-size: 0.85em;
+  }
 
-  #countdown div{
+  #countdown div {
     margin: 0 4px;
   }
 }
-@media screen and (max-width:290px){
-  .cal{
+@media screen and (max-width: 290px) {
+  .cal {
     font-size: 1.5em;
   }
-  .cap{font-size: 0.7em;}
+  .cap {
+    font-size: 0.7em;
+  }
 
-  #countdown div{
+  #countdown div {
     margin: 0 3px;
   }
 }
